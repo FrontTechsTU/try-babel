@@ -1,4 +1,5 @@
+import {sayHi} from './function'
+
 const name = "Amp"
-const sayHi = who => `Hello, ${who}!`
 
 console.log(sayHi(name))
