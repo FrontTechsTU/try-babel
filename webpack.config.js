@@ -20,6 +20,10 @@ var config = {
     output: {
         path: path.join(__dirname, 'dist'),
         filename: "hello.js"
+    },
+    devServer: {
+        historyApiFallback: true,
+        inline: true
     }
 };
 
